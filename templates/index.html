@@ -1,0 +1,12 @@
+<html lang="en">
+  <head>
+    <title>URL shortner</title>
+  </head>
+  <body>
+    <h1>URL shortner</h1>
+    <form method="POST" action="{{url_for('index')}}">
+      <input type="text" name="long_url" placeholder="enter long url" />
+      <button type="submit">shorten</button>
+    </form>
+  </body>
+</html>
